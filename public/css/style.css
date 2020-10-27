@@ -1,0 +1,10 @@
+body {
+    /* background: url("https://cdn.bulbagarden.net/upload/a/a7/PSMD_poster.png") no-repeat; 
+    background-size: 100%; */
+    background-color: rgb(183, 101, 47);
+    text-align: center;
+    
+}
+h1, p {
+    color: rgb(34, 61, 6);
+}

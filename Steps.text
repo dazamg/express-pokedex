@@ -1,0 +1,19 @@
+How does the app retrieve a list of Pokemon?
+From the url http://pokeapi.co/api/v2/pokemon/
+
+How many Pokemon does the API call retrieve? Why that many?
+151. Because of the slice method it return a array object of the selected value 
+
+What are the routes defined in the application?
+GET route - Get all records from the DB
+POST route - Get form data and add a new record to DB
+
+Think about adding a Pokemon to your favorites.
+    -How will this data be submitted?
+    With a POST method form
+
+    -What will you have to do to save this data to a database?
+
+
+    -What will you have to do to display favorite Pokemon?
+    GET ALL FAVORITES FROM DB, then create a favorite ejs to display it
