@@ -43,4 +43,17 @@ router.get('/:idx', (req, res) =>{
   });
 });
 
+router.delete('/:idx', function(req, res) {
+  // TODO: Get form data and add a new record to DB
+  db.pokemon.destroy({
+    where: {id: req.params.idx},
+  })
+  .then(numRowsDeleted=>{
+    console.log(numRowsDeleted)
+    res.redirect('/pokemon')
+  })
+  .catch(err=> {
+    console.log('oops', err)
+  })
+})
 module.exports = router;

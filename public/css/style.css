@@ -1,10 +1,26 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    /* background: url("https://cdn.bulbagarden.net/upload/a/a7/PSMD_poster.png") no-repeat; 
-    background-size: 100%; */
-    background-color: rgb(183, 101, 47);
+    background: url("https://images.unsplash.com/photo-1590955559496-50316bd28ff2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60") no-repeat; 
+    background-size: 100%;
+    background-size: cover;
+    /* background-color: rgb(183, 101, 47); */
     text-align: center;
     
 }
-h1, p {
-    color: rgb(34, 61, 6);
+h1, p, h2 {
+    color: red;
+}
+.container {
+    /* background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #1b5960 100%); */
+    padding: 1px 200px;    
+    
+
+}
+.well {
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    
 }
